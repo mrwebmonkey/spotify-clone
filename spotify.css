@@ -68,7 +68,7 @@ nav {
     padding: 10px 30px;
     background-color: #000;
     color: #fff;
-    position: fixed;
+    position: sticky;
 }
 .logo_box {
     font-size: 33px;
@@ -156,7 +156,7 @@ nav {
 /* main section styling */
 .main {
     position: relative;
-    top: 65px;
+    /* top: 65px; */
     display: flex;
     justify-content:space-around ;
     align-items: center;
@@ -275,7 +275,7 @@ nav {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    overflow-y: scroll;
+    overflow-y: auto;
     scroll-behavior: smooth;
 }
 /* contant styling */
@@ -448,7 +448,7 @@ nav {
 /* footer styling */
 footer {
     position: relative;
-    top: 65px;
+    /* top: 65px; */
     padding: 0 8px 8px 8px ;
     background-color: #000;
 }
